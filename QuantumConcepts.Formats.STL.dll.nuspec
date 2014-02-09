@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>QuantumConcepts.Formats.STL</id>
-    <version>1.0.0.1</version>
+    <version>1.2.0.0</version>
     <title>Quantum Concepts STLdotNET</title>
     <authors>Quantum Concepts</authors>
     <owners>Quantum Concepts</owners>
@@ -11,8 +11,8 @@
     <iconUrl>http://quantumconceptscorp.com/Resources/Images/QCLogoButton-32.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>This library facilitates the reading and writing of Stereo Lithograph (STL) files.</description>
-    <releaseNotes>This is the initial release which includes all basic features required to read/write STL files.</releaseNotes>
-    <copyright>Copyright 2013 Quantum Concepts Corporation, released under the GNU Affero General Public License./</copyright>
+    <releaseNotes>.NET 4.5; fixed binary writing of STLs; numerous enhancements. More info here: https://github.com/QuantumConcepts/STLdotNET/issues?milestone=2&amp;page=1&amp;state=closed</releaseNotes>
+    <copyright>Copyright 2014 Quantum Concepts Corporation, released under the GNU Affero General Public License./</copyright>
     <tags>3d reprap stl</tags>
     <dependencies>
       <dependency id="QuantumConcepts.Common" version="1.0" />
@@ -20,6 +20,6 @@
   </metadata>
 
   <files>
-    <file src="bin\Release\QuantumConcepts.Formats.STL.*" target="lib\net40"/>
+    <file src="Source\STL\bin\Release\QuantumConcepts.Formats.STL.*" target="lib\net451"/>
   </files>
 </package>
